@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["x86"] = [{"text":"impl Shr&lt;u64&gt; for PAddr","synthetic":false,"types":[]},{"text":"impl Shr&lt;u64&gt; for VAddr","synthetic":false,"types":[]},{"text":"impl Shr&lt;usize&gt; for VAddr","synthetic":false,"types":[]},{"text":"impl Shr&lt;i32&gt; for VAddr","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

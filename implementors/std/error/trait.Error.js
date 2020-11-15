@@ -1,0 +1,8 @@
+(function() {var implementors = {};
+implementors["ascii"] = [{"text":"impl Error for ToAsciiCharError","synthetic":false,"types":[]},{"text":"impl Error for AsAsciiStrError","synthetic":false,"types":[]},{"text":"impl&lt;O:&nbsp;Any&gt; Error for FromAsciiError&lt;O&gt;","synthetic":false,"types":[]}];
+implementors["chrono"] = [{"text":"impl Error for ParseError","synthetic":false,"types":[]},{"text":"impl Error for RoundingError","synthetic":false,"types":[]}];
+implementors["clap"] = [{"text":"impl Error for Error","synthetic":false,"types":[]}];
+implementors["crossbeam_channel"] = [{"text":"impl&lt;T:&nbsp;Send&gt; Error for SendError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Send&gt; Error for TrySendError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Send&gt; Error for SendTimeoutError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl Error for RecvError","synthetic":false,"types":[]},{"text":"impl Error for TryRecvError","synthetic":false,"types":[]},{"text":"impl Error for RecvTimeoutError","synthetic":false,"types":[]},{"text":"impl Error for TrySelectError","synthetic":false,"types":[]},{"text":"impl Error for SelectTimeoutError","synthetic":false,"types":[]}];
+implementors["rayon_core"] = [{"text":"impl Error for ThreadPoolBuildError","synthetic":false,"types":[]}];
+implementors["url"] = [{"text":"impl Error for ParseError","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

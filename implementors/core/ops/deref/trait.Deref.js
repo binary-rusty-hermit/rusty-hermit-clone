@@ -1,0 +1,12 @@
+(function() {var implementors = {};
+implementors["ansi_term"] = [{"text":"impl&lt;'a, S:&nbsp;'a + ToOwned + ?Sized&gt; Deref for ANSIGenericString&lt;'a, S&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;S as ToOwned&gt;::Owned: Debug,&nbsp;</span>","synthetic":false,"types":[]}];
+implementors["ascii"] = [{"text":"impl Deref for AsciiString","synthetic":false,"types":[]}];
+implementors["bytes"] = [{"text":"impl Deref for Bytes","synthetic":false,"types":[]},{"text":"impl Deref for BytesMut","synthetic":false,"types":[]}];
+implementors["crossbeam_epoch"] = [{"text":"impl&lt;T&gt; Deref for Owned&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["crossbeam_utils"] = [{"text":"impl&lt;T&gt; Deref for CachePadded&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;'a, T:&nbsp;?Sized&gt; Deref for ShardedLockReadGuard&lt;'a, T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;'a, T:&nbsp;?Sized&gt; Deref for ShardedLockWriteGuard&lt;'a, T&gt;","synthetic":false,"types":[]}];
+implementors["either"] = [{"text":"impl&lt;L, R&gt; Deref for Either&lt;L, R&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;L: Deref,<br>&nbsp;&nbsp;&nbsp;&nbsp;R: Deref&lt;Target = L::Target&gt;,&nbsp;</span>","synthetic":false,"types":[]}];
+implementors["managed"] = [{"text":"impl&lt;'a, T:&nbsp;'a + ?Sized&gt; Deref for Managed&lt;'a, T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;'a, T:&nbsp;'a&gt; Deref for ManagedSlice&lt;'a, T&gt;","synthetic":false,"types":[]}];
+implementors["scopeguard"] = [{"text":"impl&lt;T, F, S&gt; Deref for ScopeGuard&lt;T, F, S&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;F: FnOnce(T),<br>&nbsp;&nbsp;&nbsp;&nbsp;S: Strategy,&nbsp;</span>","synthetic":false,"types":[]}];
+implementors["smoltcp"] = [{"text":"impl&lt;'a, T:&nbsp;Session&gt; Deref for Ref&lt;'a, T&gt;","synthetic":false,"types":[]}];
+implementors["tinyvec"] = [{"text":"impl&lt;A:&nbsp;Array&gt; Deref for ArrayVec&lt;A&gt;","synthetic":false,"types":[]},{"text":"impl&lt;A:&nbsp;Array&gt; Deref for TinyVec&lt;A&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
